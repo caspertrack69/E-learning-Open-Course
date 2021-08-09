@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Teacher App</string>
+    <string name="app_login">Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_presensi">Presensi</string>
+    <string name="menu_kalender">kalender</string>
+    <string name="menu_PenilaianRubrik">Penilaian Rubrik</string>
+    <string name="menu_LaporanPresensi">Laporan Presensi</string>
+    <string name="menu_CetakData">Cetak Data</string>
+    <string name="menu_CadangkanData">Cadangkan Data</string>
+    <string name="menu_Logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

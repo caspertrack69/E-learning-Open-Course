@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item android:title="HOME">
+            <menu>
+                <item
+                    android:id="@+id/nav_presensi"
+                    android:icon="@drawable/ic_man"
+                    android:title="@string/menu_presensi" />
+                <item
+                    android:id="@+id/nav_kalender"
+                    android:icon="@drawable/ic_check"
+                    android:title="@string/menu_kalender" />
+            </menu>
+        </item>
+
+        <item android:title="ACADEMIC">
+            <menu>
+                <item
+                    android:id="@+id/nav_penilaianrubrik"
+                    android:icon="@drawable/ic_open_book"
+                    android:title="@string/menu_PenilaianRubrik" />
+                <item
+                    android:icon="@drawable/ic_group"
+                    android:title="@string/menu_LaporanPresensi" />
+
+            </menu>
+        </item>
+
+        <item android:title="DATA">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_CetakData"
+                    android:icon="@drawable/ic_printing"
+                    android:title="@string/menu_CetakData" />
+
+                <item
+                    android:id="@+id/nav_CadangkanData"
+                    android:icon="@drawable/ic_cloud_backup_up_arrow"
+                    android:title="@string/menu_CadangkanData" />
+
+                <item
+                    android:id="@+id/nav_Logout"
+                    android:icon="@drawable/ic_log_out__1_"
+                    android:title="@string/menu_Logout" />
+            </menu>
+        </item>
+    </group>
+</menu>

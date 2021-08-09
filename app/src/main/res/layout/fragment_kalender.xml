@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFF0F5"
+    android:orientation="vertical"
+    tools:context=".ui.kalender.KalenderFragment">
+
+    <Button
+        android:id="@+id/btncal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#E9967A"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:text="Show Calender" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#E9967A"
+        android:text=""
+        android:hint="Date"
+        android:gravity="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp"
+        android:textStyle="bold|normal" />
+
+</LinearLayout>

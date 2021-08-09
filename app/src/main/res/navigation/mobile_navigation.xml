@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_presensi">
+
+<!--    <activity-->
+<!--        android:id="@+id/loginActivity"-->
+<!--        android:name="com.example.TeacherApp.LoginActivity"-->
+<!--        android:label="activity_login"-->
+<!--        tools:layout="@layout/activity_login" />-->
+<!--    <activity-->
+<!--        android:id="@+id/registerActivity"-->
+<!--        android:name="com.example.TeacherApp.RegisterActivity"-->
+<!--        android:label="activity_register"-->
+<!--        tools:layout="@layout/activity_register" />-->
+    <fragment
+        android:id="@+id/nav_presensi"
+        android:name="com.example.TeacherApp.ui.presensi.PresensiFragment"
+        android:label="@string/menu_presensi"
+        tools:layout="@layout/fragment_presensi" />
+
+    <fragment
+        android:id="@+id/nav_penilaianrubrik"
+        android:name="com.example.TeacherApp.ui.penilaianrubrik.PenilaianRubrikFragment"
+        android:label="@string/menu_PenilaianRubrik"
+        tools:layout="@layout/fragment_penilaianrubrik" />
+
+    <fragment
+        android:id="@+id/nav_laporanpresensi"
+        android:name="com.example.TeacherApp.ui.laporanpresensi.LaporanPresensiFragment"
+        android:label="@string/menu_LaporanPresensi"
+        tools:layout="@layout/fragment_laporanpresensi" />
+
+    <fragment
+        android:id="@+id/nav_kalender"
+        android:name="com.example.TeacherApp.ui.kalender.KalenderFragment"
+        android:label="@string/menu_kalender"
+        tools:layout="@layout/fragment_kalender" />
+
+    <fragment
+        android:id="@+id/nav_CetakData"
+        android:name="com.example.TeacherApp.ui.cetakdata.CetakDataFragment"
+        android:label="@string/menu_CetakData"
+        tools:layout="@layout/fragment_cetakdata" />
+
+    <fragment
+        android:id="@+id/nav_CadangkanData"
+        android:name="com.example.TeacherApp.ui.cadangkandata.CadangkanDataFragment"
+        android:label="@string/menu_CadangkanData"
+        tools:layout="@layout/fragment_cadangkandata" />
+
+    <fragment
+        android:id="@+id/nav_Logout"
+        android:name="com.example.TeacherApp.ui.logout.LogoutFragment"
+        android:label="@string/menu_Logout"
+        tools:layout="@layout/fragment_logout"/>
+</navigation>
