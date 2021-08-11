@@ -17,6 +17,8 @@ public class LogoutFragment extends AppCompatActivity {
     DatabaseHelper db;
     Button logout;
 
+    int tambah;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
